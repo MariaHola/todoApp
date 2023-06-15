@@ -10,18 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <script defer src="./js/script.js"></script>
     <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/body.css" rel="stylesheet">
     <title>toDoList</title>
 </head>
 
 <body>
     <h1>Lista zadań</h1>
-    <h2>Dodaj nowe zadanie</h2>
-    <form class="js-form">
-        <input class="js-newTask">
-        <button>Dodaj zadanie.</button>
-    </form>
-    <h2>Lista zadań</h2>
-    <ul class="js-tasks"></ul>
+    <div class="body body__tittle">Dodaj nowe zadanie</div>
+    <div class="body body__input">
+        <form class="js-form">
+            <input class="js-newTask">
+            <button>Dodaj zadanie.</button>
+        </form>
+    </div>
+    <div class="body body__tittle">Lista zadań</div>
+    <div class="body body__tasks">
+        <ul class="js-tasks"></ul>
+    </div>
 </body>
 
 </html>
