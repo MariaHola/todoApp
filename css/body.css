@@ -1,7 +1,7 @@
 body {
-    background-color: #e2e0e0;
+    background-color: #ddd;
     font-family: 'Lato', sans-serif;
-    max-width: 800px;
-    margin: auto;
-    padding: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }
